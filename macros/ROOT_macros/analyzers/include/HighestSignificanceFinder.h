@@ -9,7 +9,7 @@ class HighestSignificanceFinder : public Analyzer {
   
   private:
     void performAnalysis();
-    
+
     vector<float> getSignificance( vector<int> &sig, vector<int> &bkg );
     int findMaxSignificanceIndex( vector<int> &sig, vector<int> &bkg );
     
